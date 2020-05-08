@@ -1,12 +1,16 @@
 package com.asuraiv.chatclient
 
-class ClientMain {
+import com.asuraiv.chatclient.view.MainView
+import tornadofx.App
+import tornadofx.launch
+
+class ClientMain : App(MainView::class) {
 
     companion object {
 
         @JvmStatic
         fun main(args: Array<String>) {
-            println("Chat Client.")
+            launch<ClientMain>(args);
         }
     }
 }
