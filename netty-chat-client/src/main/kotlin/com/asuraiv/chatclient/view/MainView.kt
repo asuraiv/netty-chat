@@ -1,12 +1,11 @@
 package com.asuraiv.chatclient.view
 
-import tornadofx.View
-import tornadofx.label
-import tornadofx.vbox
+import tornadofx.*
 
 class MainView : View() {
 
-    override val root = vbox {
-        label("Hello, Netty Chat!")
+    override val root = hbox {
+        textfield()
+        button("send")
     }
 }

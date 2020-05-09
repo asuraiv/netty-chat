@@ -1,8 +1,7 @@
 package com.asuraiv.chatclient
 
 import com.asuraiv.chatclient.view.MainView
-import tornadofx.App
-import tornadofx.launch
+import tornadofx.*
 
 class ClientMain : App(MainView::class) {
 
