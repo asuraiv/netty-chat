@@ -1,6 +1,6 @@
-package com.asuraiv.chatserver;
+package com.asuraiv.nettychat.server;
 
-import com.asuraiv.chatserver.handler.MessageHandler;
+import com.asuraiv.nettychat.server.handler.MessageHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;

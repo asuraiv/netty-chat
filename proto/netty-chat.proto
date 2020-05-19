@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.asuraiv.nettychat;
+
+option java_package = "com.asuraiv.nettychat.common.dto";
+option java_outer_classname = "NettyChatProto";
+
+message ChatMessage {
+
+  string userId = 1;
+  string message = 2;
+}

@@ -1,6 +1,6 @@
-package com.asuraiv.chatclient
+package com.asuraiv.nettychat.client
 
-import com.asuraiv.chatclient.view.MainView
+import com.asuraiv.nettychat.client.view.MainView
 import tornadofx.*
 
 class ClientMain : App(MainView::class) {

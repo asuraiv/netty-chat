@@ -1,4 +1,4 @@
-package com.asuraiv.chatclient.view
+package com.asuraiv.nettychat.client.view
 
 import tornadofx.*
 
