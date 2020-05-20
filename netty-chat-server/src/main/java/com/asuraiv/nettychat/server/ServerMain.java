@@ -16,7 +16,7 @@ public class ServerMain {
 	public static void main(String[] args) {
 
 		if(args.length == 0) {
-			System.err.println("Usage: java -jar server.jar [port]");
+			System.err.println("Usage: java -jar server.jar <port>");
 		}
 
 		ServerBootstrap bootstrap = new ServerBootstrap();
