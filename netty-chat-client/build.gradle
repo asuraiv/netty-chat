@@ -1,8 +1,15 @@
+apply plugin: 'org.openjfx.javafxplugin'
 apply plugin: 'kotlin'
+apply plugin: 'java'
+
+javafx {
+	version = "${openjfxVersion}"
+}
 
 dependencies {
 
 	implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}"
+	implementation "org.openjfx:javafx-controls:${openjfxVersion}"
 	implementation('no.tornado:tornadofx:1.7.20')
 }
 
